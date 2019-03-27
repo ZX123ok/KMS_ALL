@@ -25,7 +25,7 @@ if %version% lss 10 (
 )
 
 :active
-    slmgr /skms 192.227.246.25
+    slmgr /skms 192.168.31.210
     slmgr /ato
     slmgr /xpr
     cls
