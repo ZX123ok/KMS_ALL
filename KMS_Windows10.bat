@@ -1,7 +1,7 @@
 @ECHO OFF&PUSHD %~DP0 &TITLE KMS_Windows10  
 @mode con lines=23 cols=28
 color 0A
-cd /d "%SystemRoot%\system32" 2 > NUL || (Echo Please run as Admin! && Pause > nul && Exit )  
+cd /d "%SystemRoot%\system32" 2> NUL || (Echo Please run as Admin! && Pause > nul && Exit )  
 echo ------Choose_Version------
 echo 1.Pro
 echo 2.Pro N
